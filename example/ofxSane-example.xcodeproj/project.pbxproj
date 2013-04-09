@@ -1,0 +1,1158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7e9edb72089c9e9dae9aa56fccfdbdd0 /* ofxSane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7fed4757df4cee9726faed7536469ddb /* ofxSane.cpp */; };
+		8B732EDB1714A62C0035684E /* libsane.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B732DEA1714A62B0035684E /* libsane.1.dylib */; };
+		8B732EDC1714A62C0035684E /* libsane.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B732DEB1714A62B0035684E /* libsane.dylib */; };
+		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
+		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
+		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
+		E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9740E8CC7DD009D7055 /* Carbon.framework */; };
+		E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */; };
+		E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
+		E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
+		E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
+		E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */; };
+		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
+		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
+		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
+		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */; };
+		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
+		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6ce2fe2a8d1b2e93431fc7b8168becaf /* ofxSane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSane.h; path = ../src/ofxSane.h; sourceTree = SOURCE_ROOT; };
+		7fed4757df4cee9726faed7536469ddb /* ofxSane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSane.cpp; path = ../src/ofxSane.cpp; sourceTree = SOURCE_ROOT; };
+		8B732DEA1714A62B0035684E /* libsane.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsane.1.dylib; sourceTree = "<group>"; };
+		8B732DEB1714A62B0035684E /* libsane.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsane.dylib; sourceTree = "<group>"; };
+		8B732DEC1714A62B0035684E /* libsane.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsane.la; sourceTree = "<group>"; };
+		8B732DEE1714A62B0035684E /* libsane-abaton.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-abaton.1.so"; sourceTree = "<group>"; };
+		8B732DEF1714A62B0035684E /* libsane-abaton.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-abaton.la"; sourceTree = "<group>"; };
+		8B732DF01714A62B0035684E /* libsane-abaton.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-abaton.so"; sourceTree = "<group>"; };
+		8B732DF11714A62B0035684E /* libsane-agfafocus.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-agfafocus.1.so"; sourceTree = "<group>"; };
+		8B732DF21714A62B0035684E /* libsane-agfafocus.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-agfafocus.la"; sourceTree = "<group>"; };
+		8B732DF31714A62B0035684E /* libsane-agfafocus.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-agfafocus.so"; sourceTree = "<group>"; };
+		8B732DF41714A62B0035684E /* libsane-apple.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-apple.1.so"; sourceTree = "<group>"; };
+		8B732DF51714A62B0035684E /* libsane-apple.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-apple.la"; sourceTree = "<group>"; };
+		8B732DF61714A62B0035684E /* libsane-apple.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-apple.so"; sourceTree = "<group>"; };
+		8B732DF71714A62B0035684E /* libsane-artec.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-artec.1.so"; sourceTree = "<group>"; };
+		8B732DF81714A62B0035684E /* libsane-artec.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-artec.la"; sourceTree = "<group>"; };
+		8B732DF91714A62B0035684E /* libsane-artec.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-artec.so"; sourceTree = "<group>"; };
+		8B732DFA1714A62B0035684E /* libsane-artec_eplus48u.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-artec_eplus48u.1.so"; sourceTree = "<group>"; };
+		8B732DFB1714A62B0035684E /* libsane-artec_eplus48u.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-artec_eplus48u.la"; sourceTree = "<group>"; };
+		8B732DFC1714A62B0035684E /* libsane-artec_eplus48u.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-artec_eplus48u.so"; sourceTree = "<group>"; };
+		8B732DFD1714A62B0035684E /* libsane-as6e.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-as6e.1.so"; sourceTree = "<group>"; };
+		8B732DFE1714A62B0035684E /* libsane-as6e.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-as6e.la"; sourceTree = "<group>"; };
+		8B732DFF1714A62B0035684E /* libsane-as6e.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-as6e.so"; sourceTree = "<group>"; };
+		8B732E001714A62B0035684E /* libsane-avision.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-avision.1.so"; sourceTree = "<group>"; };
+		8B732E011714A62B0035684E /* libsane-avision.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-avision.la"; sourceTree = "<group>"; };
+		8B732E021714A62B0035684E /* libsane-avision.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-avision.so"; sourceTree = "<group>"; };
+		8B732E031714A62B0035684E /* libsane-bh.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-bh.1.so"; sourceTree = "<group>"; };
+		8B732E041714A62B0035684E /* libsane-bh.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-bh.la"; sourceTree = "<group>"; };
+		8B732E051714A62B0035684E /* libsane-bh.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-bh.so"; sourceTree = "<group>"; };
+		8B732E061714A62B0035684E /* libsane-canon.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-canon.1.so"; sourceTree = "<group>"; };
+		8B732E071714A62B0035684E /* libsane-canon.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-canon.la"; sourceTree = "<group>"; };
+		8B732E081714A62B0035684E /* libsane-canon.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-canon.so"; sourceTree = "<group>"; };
+		8B732E091714A62B0035684E /* libsane-canon630u.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-canon630u.1.so"; sourceTree = "<group>"; };
+		8B732E0A1714A62B0035684E /* libsane-canon630u.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-canon630u.la"; sourceTree = "<group>"; };
+		8B732E0B1714A62B0035684E /* libsane-canon630u.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-canon630u.so"; sourceTree = "<group>"; };
+		8B732E0C1714A62B0035684E /* libsane-canon_dr.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-canon_dr.1.so"; sourceTree = "<group>"; };
+		8B732E0D1714A62B0035684E /* libsane-canon_dr.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-canon_dr.la"; sourceTree = "<group>"; };
+		8B732E0E1714A62B0035684E /* libsane-canon_dr.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-canon_dr.so"; sourceTree = "<group>"; };
+		8B732E0F1714A62B0035684E /* libsane-cardscan.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-cardscan.1.so"; sourceTree = "<group>"; };
+		8B732E101714A62B0035684E /* libsane-cardscan.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-cardscan.la"; sourceTree = "<group>"; };
+		8B732E111714A62B0035684E /* libsane-cardscan.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-cardscan.so"; sourceTree = "<group>"; };
+		8B732E121714A62B0035684E /* libsane-coolscan.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-coolscan.1.so"; sourceTree = "<group>"; };
+		8B732E131714A62B0035684E /* libsane-coolscan.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-coolscan.la"; sourceTree = "<group>"; };
+		8B732E141714A62B0035684E /* libsane-coolscan.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-coolscan.so"; sourceTree = "<group>"; };
+		8B732E151714A62B0035684E /* libsane-coolscan2.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-coolscan2.1.so"; sourceTree = "<group>"; };
+		8B732E161714A62B0035684E /* libsane-coolscan2.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-coolscan2.la"; sourceTree = "<group>"; };
+		8B732E171714A62B0035684E /* libsane-coolscan2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-coolscan2.so"; sourceTree = "<group>"; };
+		8B732E181714A62B0035684E /* libsane-coolscan3.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-coolscan3.1.so"; sourceTree = "<group>"; };
+		8B732E191714A62B0035684E /* libsane-coolscan3.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-coolscan3.la"; sourceTree = "<group>"; };
+		8B732E1A1714A62B0035684E /* libsane-coolscan3.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-coolscan3.so"; sourceTree = "<group>"; };
+		8B732E1B1714A62B0035684E /* libsane-dc210.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dc210.1.so"; sourceTree = "<group>"; };
+		8B732E1C1714A62B0035684E /* libsane-dc210.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-dc210.la"; sourceTree = "<group>"; };
+		8B732E1D1714A62B0035684E /* libsane-dc210.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dc210.so"; sourceTree = "<group>"; };
+		8B732E1E1714A62B0035684E /* libsane-dc240.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dc240.1.so"; sourceTree = "<group>"; };
+		8B732E1F1714A62B0035684E /* libsane-dc240.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-dc240.la"; sourceTree = "<group>"; };
+		8B732E201714A62B0035684E /* libsane-dc240.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dc240.so"; sourceTree = "<group>"; };
+		8B732E211714A62B0035684E /* libsane-dc25.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dc25.1.so"; sourceTree = "<group>"; };
+		8B732E221714A62B0035684E /* libsane-dc25.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-dc25.la"; sourceTree = "<group>"; };
+		8B732E231714A62B0035684E /* libsane-dc25.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dc25.so"; sourceTree = "<group>"; };
+		8B732E241714A62B0035684E /* libsane-dll.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dll.1.so"; sourceTree = "<group>"; };
+		8B732E251714A62B0035684E /* libsane-dll.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-dll.la"; sourceTree = "<group>"; };
+		8B732E261714A62B0035684E /* libsane-dll.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dll.so"; sourceTree = "<group>"; };
+		8B732E271714A62B0035684E /* libsane-dmc.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dmc.1.so"; sourceTree = "<group>"; };
+		8B732E281714A62B0035684E /* libsane-dmc.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-dmc.la"; sourceTree = "<group>"; };
+		8B732E291714A62B0035684E /* libsane-dmc.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-dmc.so"; sourceTree = "<group>"; };
+		8B732E2A1714A62B0035684E /* libsane-epjitsu.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-epjitsu.1.so"; sourceTree = "<group>"; };
+		8B732E2B1714A62B0035684E /* libsane-epjitsu.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-epjitsu.la"; sourceTree = "<group>"; };
+		8B732E2C1714A62B0035684E /* libsane-epjitsu.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-epjitsu.so"; sourceTree = "<group>"; };
+		8B732E2D1714A62B0035684E /* libsane-epson.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-epson.1.so"; sourceTree = "<group>"; };
+		8B732E2E1714A62B0035684E /* libsane-epson.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-epson.la"; sourceTree = "<group>"; };
+		8B732E2F1714A62B0035684E /* libsane-epson.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-epson.so"; sourceTree = "<group>"; };
+		8B732E301714A62B0035684E /* libsane-epson2.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-epson2.1.so"; sourceTree = "<group>"; };
+		8B732E311714A62B0035684E /* libsane-epson2.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-epson2.la"; sourceTree = "<group>"; };
+		8B732E321714A62B0035684E /* libsane-epson2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-epson2.so"; sourceTree = "<group>"; };
+		8B732E331714A62B0035684E /* libsane-fujitsu.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-fujitsu.1.so"; sourceTree = "<group>"; };
+		8B732E341714A62B0035684E /* libsane-fujitsu.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-fujitsu.la"; sourceTree = "<group>"; };
+		8B732E351714A62B0035684E /* libsane-fujitsu.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-fujitsu.so"; sourceTree = "<group>"; };
+		8B732E361714A62B0035684E /* libsane-genesys.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-genesys.1.so"; sourceTree = "<group>"; };
+		8B732E371714A62B0035684E /* libsane-genesys.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-genesys.la"; sourceTree = "<group>"; };
+		8B732E381714A62B0035684E /* libsane-genesys.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-genesys.so"; sourceTree = "<group>"; };
+		8B732E391714A62B0035684E /* libsane-gt68xx.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-gt68xx.1.so"; sourceTree = "<group>"; };
+		8B732E3A1714A62B0035684E /* libsane-gt68xx.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-gt68xx.la"; sourceTree = "<group>"; };
+		8B732E3B1714A62B0035684E /* libsane-gt68xx.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-gt68xx.so"; sourceTree = "<group>"; };
+		8B732E3C1714A62B0035684E /* libsane-hp.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp.1.so"; sourceTree = "<group>"; };
+		8B732E3D1714A62B0035684E /* libsane-hp.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hp.la"; sourceTree = "<group>"; };
+		8B732E3E1714A62B0035684E /* libsane-hp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp.so"; sourceTree = "<group>"; };
+		8B732E3F1714A62B0035684E /* libsane-hp3500.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp3500.1.so"; sourceTree = "<group>"; };
+		8B732E401714A62B0035684E /* libsane-hp3500.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hp3500.la"; sourceTree = "<group>"; };
+		8B732E411714A62B0035684E /* libsane-hp3500.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp3500.so"; sourceTree = "<group>"; };
+		8B732E421714A62B0035684E /* libsane-hp3900.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp3900.1.so"; sourceTree = "<group>"; };
+		8B732E431714A62B0035684E /* libsane-hp3900.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hp3900.la"; sourceTree = "<group>"; };
+		8B732E441714A62B0035684E /* libsane-hp3900.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp3900.so"; sourceTree = "<group>"; };
+		8B732E451714A62B0035684E /* libsane-hp4200.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp4200.1.so"; sourceTree = "<group>"; };
+		8B732E461714A62B0035684E /* libsane-hp4200.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hp4200.la"; sourceTree = "<group>"; };
+		8B732E471714A62B0035684E /* libsane-hp4200.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp4200.so"; sourceTree = "<group>"; };
+		8B732E481714A62B0035684E /* libsane-hp5400.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp5400.1.so"; sourceTree = "<group>"; };
+		8B732E491714A62B0035684E /* libsane-hp5400.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hp5400.la"; sourceTree = "<group>"; };
+		8B732E4A1714A62B0035684E /* libsane-hp5400.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp5400.so"; sourceTree = "<group>"; };
+		8B732E4B1714A62B0035684E /* libsane-hp5590.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp5590.1.so"; sourceTree = "<group>"; };
+		8B732E4C1714A62B0035684E /* libsane-hp5590.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hp5590.la"; sourceTree = "<group>"; };
+		8B732E4D1714A62B0035684E /* libsane-hp5590.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hp5590.so"; sourceTree = "<group>"; };
+		8B732E4E1714A62B0035684E /* libsane-hpljm1005.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hpljm1005.1.so"; sourceTree = "<group>"; };
+		8B732E4F1714A62B0035684E /* libsane-hpljm1005.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hpljm1005.la"; sourceTree = "<group>"; };
+		8B732E501714A62B0035684E /* libsane-hpljm1005.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hpljm1005.so"; sourceTree = "<group>"; };
+		8B732E511714A62B0035684E /* libsane-hs2p.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hs2p.1.so"; sourceTree = "<group>"; };
+		8B732E521714A62B0035684E /* libsane-hs2p.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-hs2p.la"; sourceTree = "<group>"; };
+		8B732E531714A62B0035684E /* libsane-hs2p.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-hs2p.so"; sourceTree = "<group>"; };
+		8B732E541714A62B0035684E /* libsane-ibm.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-ibm.1.so"; sourceTree = "<group>"; };
+		8B732E551714A62B0035684E /* libsane-ibm.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-ibm.la"; sourceTree = "<group>"; };
+		8B732E561714A62B0035684E /* libsane-ibm.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-ibm.so"; sourceTree = "<group>"; };
+		8B732E571714A62B0035684E /* libsane-kodak.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kodak.1.so"; sourceTree = "<group>"; };
+		8B732E581714A62B0035684E /* libsane-kodak.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-kodak.la"; sourceTree = "<group>"; };
+		8B732E591714A62B0035684E /* libsane-kodak.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kodak.so"; sourceTree = "<group>"; };
+		8B732E5A1714A62B0035684E /* libsane-kodakaio.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kodakaio.1.so"; sourceTree = "<group>"; };
+		8B732E5B1714A62B0035684E /* libsane-kodakaio.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-kodakaio.la"; sourceTree = "<group>"; };
+		8B732E5C1714A62B0035684E /* libsane-kodakaio.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kodakaio.so"; sourceTree = "<group>"; };
+		8B732E5D1714A62B0035684E /* libsane-kvs1025.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kvs1025.1.so"; sourceTree = "<group>"; };
+		8B732E5E1714A62B0035684E /* libsane-kvs1025.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-kvs1025.la"; sourceTree = "<group>"; };
+		8B732E5F1714A62B0035684E /* libsane-kvs1025.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kvs1025.so"; sourceTree = "<group>"; };
+		8B732E601714A62B0035684E /* libsane-kvs20xx.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kvs20xx.1.so"; sourceTree = "<group>"; };
+		8B732E611714A62B0035684E /* libsane-kvs20xx.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-kvs20xx.la"; sourceTree = "<group>"; };
+		8B732E621714A62B0035684E /* libsane-kvs20xx.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kvs20xx.so"; sourceTree = "<group>"; };
+		8B732E631714A62B0035684E /* libsane-kvs40xx.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kvs40xx.1.so"; sourceTree = "<group>"; };
+		8B732E641714A62B0035684E /* libsane-kvs40xx.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-kvs40xx.la"; sourceTree = "<group>"; };
+		8B732E651714A62B0035684E /* libsane-kvs40xx.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-kvs40xx.so"; sourceTree = "<group>"; };
+		8B732E661714A62B0035684E /* libsane-leo.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-leo.1.so"; sourceTree = "<group>"; };
+		8B732E671714A62B0035684E /* libsane-leo.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-leo.la"; sourceTree = "<group>"; };
+		8B732E681714A62B0035684E /* libsane-leo.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-leo.so"; sourceTree = "<group>"; };
+		8B732E691714A62B0035684E /* libsane-lexmark.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-lexmark.1.so"; sourceTree = "<group>"; };
+		8B732E6A1714A62B0035684E /* libsane-lexmark.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-lexmark.la"; sourceTree = "<group>"; };
+		8B732E6B1714A62B0035684E /* libsane-lexmark.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-lexmark.so"; sourceTree = "<group>"; };
+		8B732E6C1714A62B0035684E /* libsane-ma1509.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-ma1509.1.so"; sourceTree = "<group>"; };
+		8B732E6D1714A62B0035684E /* libsane-ma1509.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-ma1509.la"; sourceTree = "<group>"; };
+		8B732E6E1714A62B0035684E /* libsane-ma1509.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-ma1509.so"; sourceTree = "<group>"; };
+		8B732E6F1714A62B0035684E /* libsane-magicolor.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-magicolor.1.so"; sourceTree = "<group>"; };
+		8B732E701714A62B0035684E /* libsane-magicolor.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-magicolor.la"; sourceTree = "<group>"; };
+		8B732E711714A62B0035684E /* libsane-magicolor.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-magicolor.so"; sourceTree = "<group>"; };
+		8B732E721714A62B0035684E /* libsane-matsushita.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-matsushita.1.so"; sourceTree = "<group>"; };
+		8B732E731714A62B0035684E /* libsane-matsushita.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-matsushita.la"; sourceTree = "<group>"; };
+		8B732E741714A62B0035684E /* libsane-matsushita.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-matsushita.so"; sourceTree = "<group>"; };
+		8B732E751714A62B0035684E /* libsane-microtek.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-microtek.1.so"; sourceTree = "<group>"; };
+		8B732E761714A62B0035684E /* libsane-microtek.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-microtek.la"; sourceTree = "<group>"; };
+		8B732E771714A62B0035684E /* libsane-microtek.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-microtek.so"; sourceTree = "<group>"; };
+		8B732E781714A62B0035684E /* libsane-microtek2.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-microtek2.1.so"; sourceTree = "<group>"; };
+		8B732E791714A62B0035684E /* libsane-microtek2.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-microtek2.la"; sourceTree = "<group>"; };
+		8B732E7A1714A62B0035684E /* libsane-microtek2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-microtek2.so"; sourceTree = "<group>"; };
+		8B732E7B1714A62B0035684E /* libsane-mustek.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-mustek.1.so"; sourceTree = "<group>"; };
+		8B732E7C1714A62B0035684E /* libsane-mustek.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-mustek.la"; sourceTree = "<group>"; };
+		8B732E7D1714A62B0035684E /* libsane-mustek.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-mustek.so"; sourceTree = "<group>"; };
+		8B732E7E1714A62B0035684E /* libsane-mustek_usb.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-mustek_usb.1.so"; sourceTree = "<group>"; };
+		8B732E7F1714A62B0035684E /* libsane-mustek_usb.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-mustek_usb.la"; sourceTree = "<group>"; };
+		8B732E801714A62B0035684E /* libsane-mustek_usb.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-mustek_usb.so"; sourceTree = "<group>"; };
+		8B732E811714A62B0035684E /* libsane-mustek_usb2.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-mustek_usb2.1.so"; sourceTree = "<group>"; };
+		8B732E821714A62B0035684E /* libsane-mustek_usb2.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-mustek_usb2.la"; sourceTree = "<group>"; };
+		8B732E831714A62B0035684E /* libsane-mustek_usb2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-mustek_usb2.so"; sourceTree = "<group>"; };
+		8B732E841714A62B0035684E /* libsane-nec.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-nec.1.so"; sourceTree = "<group>"; };
+		8B732E851714A62B0035684E /* libsane-nec.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-nec.la"; sourceTree = "<group>"; };
+		8B732E861714A62B0035684E /* libsane-nec.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-nec.so"; sourceTree = "<group>"; };
+		8B732E871714A62B0035684E /* libsane-net.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-net.1.so"; sourceTree = "<group>"; };
+		8B732E881714A62B0035684E /* libsane-net.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-net.la"; sourceTree = "<group>"; };
+		8B732E891714A62B0035684E /* libsane-net.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-net.so"; sourceTree = "<group>"; };
+		8B732E8A1714A62B0035684E /* libsane-niash.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-niash.1.so"; sourceTree = "<group>"; };
+		8B732E8B1714A62B0035684E /* libsane-niash.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-niash.la"; sourceTree = "<group>"; };
+		8B732E8C1714A62B0035684E /* libsane-niash.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-niash.so"; sourceTree = "<group>"; };
+		8B732E8D1714A62B0035684E /* libsane-p5.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-p5.1.so"; sourceTree = "<group>"; };
+		8B732E8E1714A62B0035684E /* libsane-p5.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-p5.la"; sourceTree = "<group>"; };
+		8B732E8F1714A62B0035684E /* libsane-p5.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-p5.so"; sourceTree = "<group>"; };
+		8B732E901714A62B0035684E /* libsane-pie.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-pie.1.so"; sourceTree = "<group>"; };
+		8B732E911714A62B0035684E /* libsane-pie.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-pie.la"; sourceTree = "<group>"; };
+		8B732E921714A62B0035684E /* libsane-pie.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-pie.so"; sourceTree = "<group>"; };
+		8B732E931714A62B0035684E /* libsane-pixma.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-pixma.1.so"; sourceTree = "<group>"; };
+		8B732E941714A62B0035684E /* libsane-pixma.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-pixma.la"; sourceTree = "<group>"; };
+		8B732E951714A62B0035684E /* libsane-pixma.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-pixma.so"; sourceTree = "<group>"; };
+		8B732E961714A62B0035684E /* libsane-plustek.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-plustek.1.so"; sourceTree = "<group>"; };
+		8B732E971714A62B0035684E /* libsane-plustek.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-plustek.la"; sourceTree = "<group>"; };
+		8B732E981714A62B0035684E /* libsane-plustek.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-plustek.so"; sourceTree = "<group>"; };
+		8B732E991714A62B0035684E /* libsane-plustek_pp.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-plustek_pp.1.so"; sourceTree = "<group>"; };
+		8B732E9A1714A62B0035684E /* libsane-plustek_pp.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-plustek_pp.la"; sourceTree = "<group>"; };
+		8B732E9B1714A62B0035684E /* libsane-plustek_pp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-plustek_pp.so"; sourceTree = "<group>"; };
+		8B732E9C1714A62B0035684E /* libsane-ricoh.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-ricoh.1.so"; sourceTree = "<group>"; };
+		8B732E9D1714A62B0035684E /* libsane-ricoh.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-ricoh.la"; sourceTree = "<group>"; };
+		8B732E9E1714A62B0035684E /* libsane-ricoh.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-ricoh.so"; sourceTree = "<group>"; };
+		8B732E9F1714A62B0035684E /* libsane-rts8891.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-rts8891.1.so"; sourceTree = "<group>"; };
+		8B732EA01714A62B0035684E /* libsane-rts8891.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-rts8891.la"; sourceTree = "<group>"; };
+		8B732EA11714A62B0035684E /* libsane-rts8891.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-rts8891.so"; sourceTree = "<group>"; };
+		8B732EA21714A62B0035684E /* libsane-s9036.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-s9036.1.so"; sourceTree = "<group>"; };
+		8B732EA31714A62B0035684E /* libsane-s9036.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-s9036.la"; sourceTree = "<group>"; };
+		8B732EA41714A62B0035684E /* libsane-s9036.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-s9036.so"; sourceTree = "<group>"; };
+		8B732EA51714A62B0035684E /* libsane-sceptre.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sceptre.1.so"; sourceTree = "<group>"; };
+		8B732EA61714A62B0035684E /* libsane-sceptre.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-sceptre.la"; sourceTree = "<group>"; };
+		8B732EA71714A62B0035684E /* libsane-sceptre.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sceptre.so"; sourceTree = "<group>"; };
+		8B732EA81714A62B0035684E /* libsane-sharp.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sharp.1.so"; sourceTree = "<group>"; };
+		8B732EA91714A62B0035684E /* libsane-sharp.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-sharp.la"; sourceTree = "<group>"; };
+		8B732EAA1714A62B0035684E /* libsane-sharp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sharp.so"; sourceTree = "<group>"; };
+		8B732EAB1714A62B0035684E /* libsane-sm3600.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sm3600.1.so"; sourceTree = "<group>"; };
+		8B732EAC1714A62B0035684E /* libsane-sm3600.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-sm3600.la"; sourceTree = "<group>"; };
+		8B732EAD1714A62B0035684E /* libsane-sm3600.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sm3600.so"; sourceTree = "<group>"; };
+		8B732EAE1714A62B0035684E /* libsane-sm3840.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sm3840.1.so"; sourceTree = "<group>"; };
+		8B732EAF1714A62B0035684E /* libsane-sm3840.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-sm3840.la"; sourceTree = "<group>"; };
+		8B732EB01714A62B0035684E /* libsane-sm3840.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sm3840.so"; sourceTree = "<group>"; };
+		8B732EB11714A62B0035684E /* libsane-snapscan.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-snapscan.1.so"; sourceTree = "<group>"; };
+		8B732EB21714A62B0035684E /* libsane-snapscan.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-snapscan.la"; sourceTree = "<group>"; };
+		8B732EB31714A62B0035684E /* libsane-snapscan.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-snapscan.so"; sourceTree = "<group>"; };
+		8B732EB41714A62B0035684E /* libsane-sp15c.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sp15c.1.so"; sourceTree = "<group>"; };
+		8B732EB51714A62B0035684E /* libsane-sp15c.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-sp15c.la"; sourceTree = "<group>"; };
+		8B732EB61714A62B0035684E /* libsane-sp15c.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-sp15c.so"; sourceTree = "<group>"; };
+		8B732EB71714A62B0035684E /* libsane-st400.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-st400.1.so"; sourceTree = "<group>"; };
+		8B732EB81714A62B0035684E /* libsane-st400.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-st400.la"; sourceTree = "<group>"; };
+		8B732EB91714A62B0035684E /* libsane-st400.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-st400.so"; sourceTree = "<group>"; };
+		8B732EBA1714A62B0035684E /* libsane-stv680.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-stv680.1.so"; sourceTree = "<group>"; };
+		8B732EBB1714A62B0035684E /* libsane-stv680.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-stv680.la"; sourceTree = "<group>"; };
+		8B732EBC1714A62B0035684E /* libsane-stv680.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-stv680.so"; sourceTree = "<group>"; };
+		8B732EBD1714A62B0035684E /* libsane-tamarack.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-tamarack.1.so"; sourceTree = "<group>"; };
+		8B732EBE1714A62B0035684E /* libsane-tamarack.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-tamarack.la"; sourceTree = "<group>"; };
+		8B732EBF1714A62B0035684E /* libsane-tamarack.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-tamarack.so"; sourceTree = "<group>"; };
+		8B732EC01714A62C0035684E /* libsane-teco1.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-teco1.1.so"; sourceTree = "<group>"; };
+		8B732EC11714A62C0035684E /* libsane-teco1.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-teco1.la"; sourceTree = "<group>"; };
+		8B732EC21714A62C0035684E /* libsane-teco1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-teco1.so"; sourceTree = "<group>"; };
+		8B732EC31714A62C0035684E /* libsane-teco2.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-teco2.1.so"; sourceTree = "<group>"; };
+		8B732EC41714A62C0035684E /* libsane-teco2.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-teco2.la"; sourceTree = "<group>"; };
+		8B732EC51714A62C0035684E /* libsane-teco2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-teco2.so"; sourceTree = "<group>"; };
+		8B732EC61714A62C0035684E /* libsane-teco3.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-teco3.1.so"; sourceTree = "<group>"; };
+		8B732EC71714A62C0035684E /* libsane-teco3.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-teco3.la"; sourceTree = "<group>"; };
+		8B732EC81714A62C0035684E /* libsane-teco3.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-teco3.so"; sourceTree = "<group>"; };
+		8B732EC91714A62C0035684E /* libsane-test.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-test.1.so"; sourceTree = "<group>"; };
+		8B732ECA1714A62C0035684E /* libsane-test.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-test.la"; sourceTree = "<group>"; };
+		8B732ECB1714A62C0035684E /* libsane-test.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-test.so"; sourceTree = "<group>"; };
+		8B732ECC1714A62C0035684E /* libsane-u12.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-u12.1.so"; sourceTree = "<group>"; };
+		8B732ECD1714A62C0035684E /* libsane-u12.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-u12.la"; sourceTree = "<group>"; };
+		8B732ECE1714A62C0035684E /* libsane-u12.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-u12.so"; sourceTree = "<group>"; };
+		8B732ECF1714A62C0035684E /* libsane-umax.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-umax.1.so"; sourceTree = "<group>"; };
+		8B732ED01714A62C0035684E /* libsane-umax.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-umax.la"; sourceTree = "<group>"; };
+		8B732ED11714A62C0035684E /* libsane-umax.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-umax.so"; sourceTree = "<group>"; };
+		8B732ED21714A62C0035684E /* libsane-umax1220u.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-umax1220u.1.so"; sourceTree = "<group>"; };
+		8B732ED31714A62C0035684E /* libsane-umax1220u.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-umax1220u.la"; sourceTree = "<group>"; };
+		8B732ED41714A62C0035684E /* libsane-umax1220u.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-umax1220u.so"; sourceTree = "<group>"; };
+		8B732ED51714A62C0035684E /* libsane-umax_pp.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-umax_pp.1.so"; sourceTree = "<group>"; };
+		8B732ED61714A62C0035684E /* libsane-umax_pp.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-umax_pp.la"; sourceTree = "<group>"; };
+		8B732ED71714A62C0035684E /* libsane-umax_pp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-umax_pp.so"; sourceTree = "<group>"; };
+		8B732ED81714A62C0035684E /* libsane-xerox_mfp.1.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-xerox_mfp.1.so"; sourceTree = "<group>"; };
+		8B732ED91714A62C0035684E /* libsane-xerox_mfp.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libsane-xerox_mfp.la"; sourceTree = "<group>"; };
+		8B732EDA1714A62C0035684E /* libsane-xerox_mfp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "libsane-xerox_mfp.so"; sourceTree = "<group>"; };
+		8B732EDD1714A6850035684E /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.md; path = ../readme.md; sourceTree = "<group>"; };
+		8BD94F6817149084005968B6 /* sane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sane.h; sourceTree = "<group>"; };
+		8BD94F6917149084005968B6 /* saneopts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saneopts.h; sourceTree = "<group>"; };
+		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		E45BE9740E8CC7DD009D7055 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		E45BE9770E8CC7DD009D7055 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		E45BE9790E8CC7DD009D7055 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E4B69B5B0A3A1756003C02F2 /* ofxSane-exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ofxSane-exampleDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = testApp.cpp; path = src/testApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = testApp.h; path = src/testApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4C2424410CC5A17004149E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		E4C2424510CC5A17004149E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
+				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
+				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
+				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
+				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
+				E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */,
+				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
+				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
+				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
+				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
+				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
+				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
+				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
+				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
+				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
+				8B732EDB1714A62C0035684E /* libsane.1.dylib in Frameworks */,
+				8B732EDC1714A62C0035684E /* libsane.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5e50a1231544e06424c4ae770793d804 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7fed4757df4cee9726faed7536469ddb /* ofxSane.cpp */,
+				6ce2fe2a8d1b2e93431fc7b8168becaf /* ofxSane.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		8B732DED1714A62B0035684E /* sane */ = {
+			isa = PBXGroup;
+			children = (
+				8B732DEE1714A62B0035684E /* libsane-abaton.1.so */,
+				8B732DEF1714A62B0035684E /* libsane-abaton.la */,
+				8B732DF01714A62B0035684E /* libsane-abaton.so */,
+				8B732DF11714A62B0035684E /* libsane-agfafocus.1.so */,
+				8B732DF21714A62B0035684E /* libsane-agfafocus.la */,
+				8B732DF31714A62B0035684E /* libsane-agfafocus.so */,
+				8B732DF41714A62B0035684E /* libsane-apple.1.so */,
+				8B732DF51714A62B0035684E /* libsane-apple.la */,
+				8B732DF61714A62B0035684E /* libsane-apple.so */,
+				8B732DF71714A62B0035684E /* libsane-artec.1.so */,
+				8B732DF81714A62B0035684E /* libsane-artec.la */,
+				8B732DF91714A62B0035684E /* libsane-artec.so */,
+				8B732DFA1714A62B0035684E /* libsane-artec_eplus48u.1.so */,
+				8B732DFB1714A62B0035684E /* libsane-artec_eplus48u.la */,
+				8B732DFC1714A62B0035684E /* libsane-artec_eplus48u.so */,
+				8B732DFD1714A62B0035684E /* libsane-as6e.1.so */,
+				8B732DFE1714A62B0035684E /* libsane-as6e.la */,
+				8B732DFF1714A62B0035684E /* libsane-as6e.so */,
+				8B732E001714A62B0035684E /* libsane-avision.1.so */,
+				8B732E011714A62B0035684E /* libsane-avision.la */,
+				8B732E021714A62B0035684E /* libsane-avision.so */,
+				8B732E031714A62B0035684E /* libsane-bh.1.so */,
+				8B732E041714A62B0035684E /* libsane-bh.la */,
+				8B732E051714A62B0035684E /* libsane-bh.so */,
+				8B732E061714A62B0035684E /* libsane-canon.1.so */,
+				8B732E071714A62B0035684E /* libsane-canon.la */,
+				8B732E081714A62B0035684E /* libsane-canon.so */,
+				8B732E091714A62B0035684E /* libsane-canon630u.1.so */,
+				8B732E0A1714A62B0035684E /* libsane-canon630u.la */,
+				8B732E0B1714A62B0035684E /* libsane-canon630u.so */,
+				8B732E0C1714A62B0035684E /* libsane-canon_dr.1.so */,
+				8B732E0D1714A62B0035684E /* libsane-canon_dr.la */,
+				8B732E0E1714A62B0035684E /* libsane-canon_dr.so */,
+				8B732E0F1714A62B0035684E /* libsane-cardscan.1.so */,
+				8B732E101714A62B0035684E /* libsane-cardscan.la */,
+				8B732E111714A62B0035684E /* libsane-cardscan.so */,
+				8B732E121714A62B0035684E /* libsane-coolscan.1.so */,
+				8B732E131714A62B0035684E /* libsane-coolscan.la */,
+				8B732E141714A62B0035684E /* libsane-coolscan.so */,
+				8B732E151714A62B0035684E /* libsane-coolscan2.1.so */,
+				8B732E161714A62B0035684E /* libsane-coolscan2.la */,
+				8B732E171714A62B0035684E /* libsane-coolscan2.so */,
+				8B732E181714A62B0035684E /* libsane-coolscan3.1.so */,
+				8B732E191714A62B0035684E /* libsane-coolscan3.la */,
+				8B732E1A1714A62B0035684E /* libsane-coolscan3.so */,
+				8B732E1B1714A62B0035684E /* libsane-dc210.1.so */,
+				8B732E1C1714A62B0035684E /* libsane-dc210.la */,
+				8B732E1D1714A62B0035684E /* libsane-dc210.so */,
+				8B732E1E1714A62B0035684E /* libsane-dc240.1.so */,
+				8B732E1F1714A62B0035684E /* libsane-dc240.la */,
+				8B732E201714A62B0035684E /* libsane-dc240.so */,
+				8B732E211714A62B0035684E /* libsane-dc25.1.so */,
+				8B732E221714A62B0035684E /* libsane-dc25.la */,
+				8B732E231714A62B0035684E /* libsane-dc25.so */,
+				8B732E241714A62B0035684E /* libsane-dll.1.so */,
+				8B732E251714A62B0035684E /* libsane-dll.la */,
+				8B732E261714A62B0035684E /* libsane-dll.so */,
+				8B732E271714A62B0035684E /* libsane-dmc.1.so */,
+				8B732E281714A62B0035684E /* libsane-dmc.la */,
+				8B732E291714A62B0035684E /* libsane-dmc.so */,
+				8B732E2A1714A62B0035684E /* libsane-epjitsu.1.so */,
+				8B732E2B1714A62B0035684E /* libsane-epjitsu.la */,
+				8B732E2C1714A62B0035684E /* libsane-epjitsu.so */,
+				8B732E2D1714A62B0035684E /* libsane-epson.1.so */,
+				8B732E2E1714A62B0035684E /* libsane-epson.la */,
+				8B732E2F1714A62B0035684E /* libsane-epson.so */,
+				8B732E301714A62B0035684E /* libsane-epson2.1.so */,
+				8B732E311714A62B0035684E /* libsane-epson2.la */,
+				8B732E321714A62B0035684E /* libsane-epson2.so */,
+				8B732E331714A62B0035684E /* libsane-fujitsu.1.so */,
+				8B732E341714A62B0035684E /* libsane-fujitsu.la */,
+				8B732E351714A62B0035684E /* libsane-fujitsu.so */,
+				8B732E361714A62B0035684E /* libsane-genesys.1.so */,
+				8B732E371714A62B0035684E /* libsane-genesys.la */,
+				8B732E381714A62B0035684E /* libsane-genesys.so */,
+				8B732E391714A62B0035684E /* libsane-gt68xx.1.so */,
+				8B732E3A1714A62B0035684E /* libsane-gt68xx.la */,
+				8B732E3B1714A62B0035684E /* libsane-gt68xx.so */,
+				8B732E3C1714A62B0035684E /* libsane-hp.1.so */,
+				8B732E3D1714A62B0035684E /* libsane-hp.la */,
+				8B732E3E1714A62B0035684E /* libsane-hp.so */,
+				8B732E3F1714A62B0035684E /* libsane-hp3500.1.so */,
+				8B732E401714A62B0035684E /* libsane-hp3500.la */,
+				8B732E411714A62B0035684E /* libsane-hp3500.so */,
+				8B732E421714A62B0035684E /* libsane-hp3900.1.so */,
+				8B732E431714A62B0035684E /* libsane-hp3900.la */,
+				8B732E441714A62B0035684E /* libsane-hp3900.so */,
+				8B732E451714A62B0035684E /* libsane-hp4200.1.so */,
+				8B732E461714A62B0035684E /* libsane-hp4200.la */,
+				8B732E471714A62B0035684E /* libsane-hp4200.so */,
+				8B732E481714A62B0035684E /* libsane-hp5400.1.so */,
+				8B732E491714A62B0035684E /* libsane-hp5400.la */,
+				8B732E4A1714A62B0035684E /* libsane-hp5400.so */,
+				8B732E4B1714A62B0035684E /* libsane-hp5590.1.so */,
+				8B732E4C1714A62B0035684E /* libsane-hp5590.la */,
+				8B732E4D1714A62B0035684E /* libsane-hp5590.so */,
+				8B732E4E1714A62B0035684E /* libsane-hpljm1005.1.so */,
+				8B732E4F1714A62B0035684E /* libsane-hpljm1005.la */,
+				8B732E501714A62B0035684E /* libsane-hpljm1005.so */,
+				8B732E511714A62B0035684E /* libsane-hs2p.1.so */,
+				8B732E521714A62B0035684E /* libsane-hs2p.la */,
+				8B732E531714A62B0035684E /* libsane-hs2p.so */,
+				8B732E541714A62B0035684E /* libsane-ibm.1.so */,
+				8B732E551714A62B0035684E /* libsane-ibm.la */,
+				8B732E561714A62B0035684E /* libsane-ibm.so */,
+				8B732E571714A62B0035684E /* libsane-kodak.1.so */,
+				8B732E581714A62B0035684E /* libsane-kodak.la */,
+				8B732E591714A62B0035684E /* libsane-kodak.so */,
+				8B732E5A1714A62B0035684E /* libsane-kodakaio.1.so */,
+				8B732E5B1714A62B0035684E /* libsane-kodakaio.la */,
+				8B732E5C1714A62B0035684E /* libsane-kodakaio.so */,
+				8B732E5D1714A62B0035684E /* libsane-kvs1025.1.so */,
+				8B732E5E1714A62B0035684E /* libsane-kvs1025.la */,
+				8B732E5F1714A62B0035684E /* libsane-kvs1025.so */,
+				8B732E601714A62B0035684E /* libsane-kvs20xx.1.so */,
+				8B732E611714A62B0035684E /* libsane-kvs20xx.la */,
+				8B732E621714A62B0035684E /* libsane-kvs20xx.so */,
+				8B732E631714A62B0035684E /* libsane-kvs40xx.1.so */,
+				8B732E641714A62B0035684E /* libsane-kvs40xx.la */,
+				8B732E651714A62B0035684E /* libsane-kvs40xx.so */,
+				8B732E661714A62B0035684E /* libsane-leo.1.so */,
+				8B732E671714A62B0035684E /* libsane-leo.la */,
+				8B732E681714A62B0035684E /* libsane-leo.so */,
+				8B732E691714A62B0035684E /* libsane-lexmark.1.so */,
+				8B732E6A1714A62B0035684E /* libsane-lexmark.la */,
+				8B732E6B1714A62B0035684E /* libsane-lexmark.so */,
+				8B732E6C1714A62B0035684E /* libsane-ma1509.1.so */,
+				8B732E6D1714A62B0035684E /* libsane-ma1509.la */,
+				8B732E6E1714A62B0035684E /* libsane-ma1509.so */,
+				8B732E6F1714A62B0035684E /* libsane-magicolor.1.so */,
+				8B732E701714A62B0035684E /* libsane-magicolor.la */,
+				8B732E711714A62B0035684E /* libsane-magicolor.so */,
+				8B732E721714A62B0035684E /* libsane-matsushita.1.so */,
+				8B732E731714A62B0035684E /* libsane-matsushita.la */,
+				8B732E741714A62B0035684E /* libsane-matsushita.so */,
+				8B732E751714A62B0035684E /* libsane-microtek.1.so */,
+				8B732E761714A62B0035684E /* libsane-microtek.la */,
+				8B732E771714A62B0035684E /* libsane-microtek.so */,
+				8B732E781714A62B0035684E /* libsane-microtek2.1.so */,
+				8B732E791714A62B0035684E /* libsane-microtek2.la */,
+				8B732E7A1714A62B0035684E /* libsane-microtek2.so */,
+				8B732E7B1714A62B0035684E /* libsane-mustek.1.so */,
+				8B732E7C1714A62B0035684E /* libsane-mustek.la */,
+				8B732E7D1714A62B0035684E /* libsane-mustek.so */,
+				8B732E7E1714A62B0035684E /* libsane-mustek_usb.1.so */,
+				8B732E7F1714A62B0035684E /* libsane-mustek_usb.la */,
+				8B732E801714A62B0035684E /* libsane-mustek_usb.so */,
+				8B732E811714A62B0035684E /* libsane-mustek_usb2.1.so */,
+				8B732E821714A62B0035684E /* libsane-mustek_usb2.la */,
+				8B732E831714A62B0035684E /* libsane-mustek_usb2.so */,
+				8B732E841714A62B0035684E /* libsane-nec.1.so */,
+				8B732E851714A62B0035684E /* libsane-nec.la */,
+				8B732E861714A62B0035684E /* libsane-nec.so */,
+				8B732E871714A62B0035684E /* libsane-net.1.so */,
+				8B732E881714A62B0035684E /* libsane-net.la */,
+				8B732E891714A62B0035684E /* libsane-net.so */,
+				8B732E8A1714A62B0035684E /* libsane-niash.1.so */,
+				8B732E8B1714A62B0035684E /* libsane-niash.la */,
+				8B732E8C1714A62B0035684E /* libsane-niash.so */,
+				8B732E8D1714A62B0035684E /* libsane-p5.1.so */,
+				8B732E8E1714A62B0035684E /* libsane-p5.la */,
+				8B732E8F1714A62B0035684E /* libsane-p5.so */,
+				8B732E901714A62B0035684E /* libsane-pie.1.so */,
+				8B732E911714A62B0035684E /* libsane-pie.la */,
+				8B732E921714A62B0035684E /* libsane-pie.so */,
+				8B732E931714A62B0035684E /* libsane-pixma.1.so */,
+				8B732E941714A62B0035684E /* libsane-pixma.la */,
+				8B732E951714A62B0035684E /* libsane-pixma.so */,
+				8B732E961714A62B0035684E /* libsane-plustek.1.so */,
+				8B732E971714A62B0035684E /* libsane-plustek.la */,
+				8B732E981714A62B0035684E /* libsane-plustek.so */,
+				8B732E991714A62B0035684E /* libsane-plustek_pp.1.so */,
+				8B732E9A1714A62B0035684E /* libsane-plustek_pp.la */,
+				8B732E9B1714A62B0035684E /* libsane-plustek_pp.so */,
+				8B732E9C1714A62B0035684E /* libsane-ricoh.1.so */,
+				8B732E9D1714A62B0035684E /* libsane-ricoh.la */,
+				8B732E9E1714A62B0035684E /* libsane-ricoh.so */,
+				8B732E9F1714A62B0035684E /* libsane-rts8891.1.so */,
+				8B732EA01714A62B0035684E /* libsane-rts8891.la */,
+				8B732EA11714A62B0035684E /* libsane-rts8891.so */,
+				8B732EA21714A62B0035684E /* libsane-s9036.1.so */,
+				8B732EA31714A62B0035684E /* libsane-s9036.la */,
+				8B732EA41714A62B0035684E /* libsane-s9036.so */,
+				8B732EA51714A62B0035684E /* libsane-sceptre.1.so */,
+				8B732EA61714A62B0035684E /* libsane-sceptre.la */,
+				8B732EA71714A62B0035684E /* libsane-sceptre.so */,
+				8B732EA81714A62B0035684E /* libsane-sharp.1.so */,
+				8B732EA91714A62B0035684E /* libsane-sharp.la */,
+				8B732EAA1714A62B0035684E /* libsane-sharp.so */,
+				8B732EAB1714A62B0035684E /* libsane-sm3600.1.so */,
+				8B732EAC1714A62B0035684E /* libsane-sm3600.la */,
+				8B732EAD1714A62B0035684E /* libsane-sm3600.so */,
+				8B732EAE1714A62B0035684E /* libsane-sm3840.1.so */,
+				8B732EAF1714A62B0035684E /* libsane-sm3840.la */,
+				8B732EB01714A62B0035684E /* libsane-sm3840.so */,
+				8B732EB11714A62B0035684E /* libsane-snapscan.1.so */,
+				8B732EB21714A62B0035684E /* libsane-snapscan.la */,
+				8B732EB31714A62B0035684E /* libsane-snapscan.so */,
+				8B732EB41714A62B0035684E /* libsane-sp15c.1.so */,
+				8B732EB51714A62B0035684E /* libsane-sp15c.la */,
+				8B732EB61714A62B0035684E /* libsane-sp15c.so */,
+				8B732EB71714A62B0035684E /* libsane-st400.1.so */,
+				8B732EB81714A62B0035684E /* libsane-st400.la */,
+				8B732EB91714A62B0035684E /* libsane-st400.so */,
+				8B732EBA1714A62B0035684E /* libsane-stv680.1.so */,
+				8B732EBB1714A62B0035684E /* libsane-stv680.la */,
+				8B732EBC1714A62B0035684E /* libsane-stv680.so */,
+				8B732EBD1714A62B0035684E /* libsane-tamarack.1.so */,
+				8B732EBE1714A62B0035684E /* libsane-tamarack.la */,
+				8B732EBF1714A62B0035684E /* libsane-tamarack.so */,
+				8B732EC01714A62C0035684E /* libsane-teco1.1.so */,
+				8B732EC11714A62C0035684E /* libsane-teco1.la */,
+				8B732EC21714A62C0035684E /* libsane-teco1.so */,
+				8B732EC31714A62C0035684E /* libsane-teco2.1.so */,
+				8B732EC41714A62C0035684E /* libsane-teco2.la */,
+				8B732EC51714A62C0035684E /* libsane-teco2.so */,
+				8B732EC61714A62C0035684E /* libsane-teco3.1.so */,
+				8B732EC71714A62C0035684E /* libsane-teco3.la */,
+				8B732EC81714A62C0035684E /* libsane-teco3.so */,
+				8B732EC91714A62C0035684E /* libsane-test.1.so */,
+				8B732ECA1714A62C0035684E /* libsane-test.la */,
+				8B732ECB1714A62C0035684E /* libsane-test.so */,
+				8B732ECC1714A62C0035684E /* libsane-u12.1.so */,
+				8B732ECD1714A62C0035684E /* libsane-u12.la */,
+				8B732ECE1714A62C0035684E /* libsane-u12.so */,
+				8B732ECF1714A62C0035684E /* libsane-umax.1.so */,
+				8B732ED01714A62C0035684E /* libsane-umax.la */,
+				8B732ED11714A62C0035684E /* libsane-umax.so */,
+				8B732ED21714A62C0035684E /* libsane-umax1220u.1.so */,
+				8B732ED31714A62C0035684E /* libsane-umax1220u.la */,
+				8B732ED41714A62C0035684E /* libsane-umax1220u.so */,
+				8B732ED51714A62C0035684E /* libsane-umax_pp.1.so */,
+				8B732ED61714A62C0035684E /* libsane-umax_pp.la */,
+				8B732ED71714A62C0035684E /* libsane-umax_pp.so */,
+				8B732ED81714A62C0035684E /* libsane-xerox_mfp.1.so */,
+				8B732ED91714A62C0035684E /* libsane-xerox_mfp.la */,
+				8B732EDA1714A62C0035684E /* libsane-xerox_mfp.so */,
+			);
+			path = sane;
+			sourceTree = "<group>";
+		};
+		8BD94F6417149084005968B6 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8BD94F6517149084005968B6 /* sane */,
+			);
+			name = libs;
+			path = ../libs;
+			sourceTree = "<group>";
+		};
+		8BD94F6517149084005968B6 /* sane */ = {
+			isa = PBXGroup;
+			children = (
+				8BD94F6617149084005968B6 /* include */,
+				8BD94F6A17149084005968B6 /* lib */,
+			);
+			path = sane;
+			sourceTree = "<group>";
+		};
+		8BD94F6617149084005968B6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8BD94F6717149084005968B6 /* sane */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8BD94F6717149084005968B6 /* sane */ = {
+			isa = PBXGroup;
+			children = (
+				8BD94F6817149084005968B6 /* sane.h */,
+				8BD94F6917149084005968B6 /* saneopts.h */,
+			);
+			path = sane;
+			sourceTree = "<group>";
+		};
+		8BD94F6A17149084005968B6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8BD94F6B17149084005968B6 /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8BD94F6B17149084005968B6 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				8B732DEA1714A62B0035684E /* libsane.1.dylib */,
+				8B732DEB1714A62B0035684E /* libsane.dylib */,
+				8B732DEC1714A62B0035684E /* libsane.la */,
+				8B732DED1714A62B0035684E /* sane */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				f6fd7fcbb6b3364f0ef6df063e70fdcd /* ofxSane */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BBAB23C913894ECA00AA2426 /* system frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F985F515E0DE99003869B5 /* Accelerate.framework */,
+				E4C2424410CC5A17004149E2 /* AppKit.framework */,
+				E4C2424510CC5A17004149E2 /* Cocoa.framework */,
+				E4C2424610CC5A17004149E2 /* IOKit.framework */,
+				E45BE9710E8CC7DD009D7055 /* AGL.framework */,
+				E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */,
+				E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */,
+				E45BE9740E8CC7DD009D7055 /* Carbon.framework */,
+				E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */,
+				E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */,
+				E45BE9770E8CC7DD009D7055 /* CoreServices.framework */,
+				E45BE9790E8CC7DD009D7055 /* OpenGL.framework */,
+				E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */,
+				E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */,
+				E7E077E715D3B6510020DFD4 /* QTKit.framework */,
+			);
+			name = "system frameworks";
+			sourceTree = "<group>";
+		};
+		BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23BE13894E4700AA2426 /* GLUT.framework */,
+			);
+			name = "3rd party frameworks";
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45BE5980E8CC70C009D7055 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */,
+				BBAB23C913894ECA00AA2426 /* system frameworks */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				8B732EDD1714A6850035684E /* readme.md */,
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				E45BE5980E8CC70C009D7055 /* frameworks */,
+				E4B69B5B0A3A1756003C02F2 /* ofxSane-exampleDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		f6fd7fcbb6b3364f0ef6df063e70fdcd /* ofxSane */ = {
+			isa = PBXGroup;
+			children = (
+				8BD94F6417149084005968B6 /* libs */,
+				5e50a1231544e06424c4ae770793d804 /* src */,
+			);
+			name = ofxSane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* ofxSane-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxSane-example" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = "ofxSane-example";
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* ofxSane-exampleDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxSane-example" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* ofxSane-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
+				7e9edb72089c9e9dae9aa56fccfdbdd0 /* ofxSane.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxSane/libs,
+					../../../addons/ofxSane/src,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxSane/libs,
+					../../../addons/ofxSane/src,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxSane/libs,
+					../../../addons/ofxSane/src,
+					../../../addons/ofxSane/libs/sane/include,
+				);
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../libs/sane/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../libs/sane/lib/osx\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = "ofxSane-exampleDebug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxSane/libs,
+					../../../addons/ofxSane/src,
+					../../../addons/ofxSane/libs/sane/include,
+				);
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../libs/sane/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../libs/sane/lib/osx\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = "ofxSane-example";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxSane-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxSane-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
